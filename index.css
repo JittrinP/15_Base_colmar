@@ -1,0 +1,92 @@
+@media (min-width: 375px) {
+  body {
+    font-family: "Google Sans Flex", sans-serif;
+  }
+section{
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+  h2 {
+    font-size: 40px;
+    color: rgb(75, 75, 75);
+
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .nav_card {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hero {
+    background-color: #d1d1d1;
+  }
+
+  .hero_detail {
+    padding: 0px 16px 32px 16px;
+  }
+
+  .hero h2 {
+    box-sizing: border-box;
+    margin-top: 32px 16px;
+  }
+
+  .hero p {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .hero > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .start_button {
+    background-color: #9c9c9c;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0px;
+  }
+
+  .information_item {
+    padding: 16px;
+  }
+
+  .information_item img {
+    width: 100%;
+    height: auto;
+  }
+  .item_detail{
+    padding: 16px 16px 32px;
+  }
+  .readMore {
+    color: rgb(100, 187, 237);
+    font-weight: 500;
+  }
+
+  h3, .p_detail{
+    color: #474747;
+  }
+
+  .p_detail , .readMore{
+    margin: 12px 0px 0px;
+  }
+
+  .item_detail p{
+    font-size: 18px;
+  }
+
+.course_topic{
+    text-align: center;
+}
+
+}
